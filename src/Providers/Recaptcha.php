@@ -4,9 +4,6 @@ namespace Synalek\Recaptcha\Providers;
 
 use Synalek\Recaptcha\Captcha;
 
-// site_key: 6Le0FKMUAAAAABtL-AfulcIREtAvREEG1vGDfqiE
-// secret: 6Le0FKMUAAAAAJ_com5vVkf0VspQkehwdcv84q7k
-
 class Recaptcha extends \Illuminate\Support\ServiceProvider
 {
     /**
