@@ -12,7 +12,7 @@ class Recaptcha extends \Illuminate\Support\ServiceProvider
     /**
      * The path to the config file
      */
-    protected $configPath = __DIR__ . '/../config/recaptcha.php';
+    protected $configPath = __DIR__ . '/../../config/recaptcha.php';
 
     /**
      * Register the service provider.
