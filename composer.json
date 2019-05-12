@@ -1,0 +1,34 @@
+{
+    "name": "synalek/laravel-recaptcha",
+    "description": "The Google Recaptcha v3 wrapper for the Laravel framework",
+    "keywords": ["laravel", "google", "recaptcha"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Synalek",
+            "email": "syynalek@gmail.com"
+        }
+    ],
+    "require": {
+        "google/recaptcha": "^1.2@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Synalek\\Recaptcha\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Synalek\\Recaptcha\\ServiceProvider"
+            ],
+            "aliases": {
+                "Recaptcha": "Synalek\\Recaptcha\\Facades\\Recaptcha"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
