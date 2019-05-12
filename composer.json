@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Synalek\\Recaptcha\\ServiceProvider"
+                "Synalek\\Recaptcha\\Providers\\Recaptcha"
             ],
             "aliases": {
                 "Recaptcha": "Synalek\\Recaptcha\\Facades\\Recaptcha"
